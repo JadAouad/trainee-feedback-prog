@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#005eb8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#003087" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Rounded App Icon Background -->
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#bgGrad)" filter="url(#glow)"/>
+
+  <!-- Healthcare Feedback Speech Bubble -->
+  <path d="M16 16 C16 13.8 17.8 12 20 12 L44 12 C46.2 12 48 13.8 48 16 L48 38 C48 40.2 46.2 42 44 42 L25 42 L18 49 L18 42 L20 42 C17.8 42 16 40.2 16 38 Z" fill="#ffffff"/>
+
+  <!-- Medical Cross Symbol Inside Speech Bubble -->
+  <rect x="29" y="19" width="6" height="16" rx="2" fill="#005eb8"/>
+  <rect x="24" y="24" width="16" height="6" rx="2" fill="#005eb8"/>
+
+  <!-- Medical Vitality Pulse / Heartbeat Accent -->
+  <path d="M22 34 L27 34 L29 31 L32 37 L35 32 L38 34 L42 34" stroke="#0284c7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
